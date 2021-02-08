@@ -1,4 +1,7 @@
 h1 {
 color:limegreen;
 }
-body {background-color: black;}
+body {
+    background-color: black;
+    color:slategray;
+}
