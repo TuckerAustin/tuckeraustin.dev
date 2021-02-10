@@ -37,6 +37,14 @@ html {
    color:limegreen;
   }
   
+  h2 {
+    font-size: 3.0vw;
+  }
+
+  p {
+    font-size: 2vmin;
+  }
+
   a {
     color:snow;
   }
