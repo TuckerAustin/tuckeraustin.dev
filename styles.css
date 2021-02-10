@@ -1,14 +1,3 @@
-h1 {
-color:limegreen;
-}
-body {
-    background-color: black;
-    opacity: 1.0;
-    color:snow;
-}
-a {
-    color:snow;
-}
 /* css reset */
 html {
     box-sizing: border-box;
@@ -38,13 +27,20 @@ html {
   body {
    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
    display: grid;
+   background-color: black;
+    opacity: 1.0;
+    color:snow;
   }
   
   h1 {
    font-size: 200px; /* you need to use relative units */
-   
+   color:limegreen;
   }
   
+  a {
+    color:snow;
+  }
+
   header {
    width: 100%;
    display: grid;
