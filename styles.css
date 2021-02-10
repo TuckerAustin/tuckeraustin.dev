@@ -24,14 +24,10 @@ html {
   }
   /* end css reset */
   
-.demo selector {
 
   body {
    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
    display: grid;
-   background-color: black;
-    opacity: 1.0;
-    color:snow;
   }
   
   h1 {
@@ -49,7 +45,6 @@ html {
    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 100px;
   }
-}
   .main {
     width: 100%;
     display: grid;
