@@ -33,7 +33,7 @@ html {
   }
   
   h1 {
-   font-size: 200px; /* you need to use relative units */
+   font-size: 5.9vw; /* you need to use relative units */
    color:limegreen;
   }
   
