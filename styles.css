@@ -35,7 +35,7 @@ html {
   h1 {
    font-size: 5.9vw; /* you need to use relative units */
    color:limegreen;
-   margin: 75px 25px 125px 25px;
+   margin: 50px 25px 125px 25px;
   }
   
   h2 {
@@ -44,7 +44,7 @@ html {
 
   p {
     font-size: 2vmin;
-    margin: 0px 0px 50px 0px;
+    margin: 0px 0px 75px 0px;
   }
 
   a {
