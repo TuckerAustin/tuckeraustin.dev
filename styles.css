@@ -35,14 +35,17 @@ html {
   h1 {
    font-size: 5.9vw; /* you need to use relative units */
    color:limegreen;
+   margin: 125px 25px 100px 25px;
   }
   
   h2 {
-    font-size: 3.0vw;
+    font-size: 1.0vw;
   }
 
   p {
     font-size: 2vmin;
+    margin: 0px 0px 50px 0px;
+
   }
 
   a {
