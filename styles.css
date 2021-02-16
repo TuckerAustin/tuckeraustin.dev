@@ -82,13 +82,11 @@ p {
 .form label {
 		display: inline-block;
 		text-align: left;
-		float: left;
 	}
 
 	.form input {
 		display: inline-block;
 		text-align: left;
-		float: right;
 	}
 
 .contact {
@@ -99,7 +97,6 @@ p {
 
 .button {
   margin-left: 1000px;
-  float: right;
 }
 
 footer {
