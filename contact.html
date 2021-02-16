@@ -18,13 +18,13 @@
   <div class="form">
     <form name="contact" method="POST" data-netlify="true">
       <p>
-        <label>Name:</label><input type="text" name="name" required />
+        <label for="name">Name:</label><input type="text" name="name" id="name" pattern="([a-z]){2}" required />
       </p>
       <p>
-        <label>Email:</label><input type="email" name="email" required />
+        <label for="email">Email:</label><input type="email" name="email" id="email" required />
       </p>
       <p>
-        <label>Message:</label><textarea name="message" required></textarea>
+        <label for="message">Message:</label><textarea name="message" id="message" required></textarea>
       </p>
   </div>
   <div class="button">
