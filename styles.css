@@ -40,7 +40,6 @@ a {
 }
 
 .hero {
-  color: white;
   font-size: 13vw;
   text-align: center;
   padding-bottom: 48px;
@@ -54,7 +53,6 @@ header {
 }
 
 p {
-  color:white;
   padding-left: 16px;
   margin: 0px 0px 50px 0px;
   
@@ -71,15 +69,41 @@ p {
   padding-left: 16px;
 }
 
+.info {
+  margin: 0 auto;
+  padding-bottom: 24px;
+}
+
+.form {
+   margin: 0 auto;
+   width: 192px; 
+}
+
+.form label {
+		display: inline-block;
+		text-align: left;
+		float: left;
+	}
+
+	.form input {
+		display: inline-block;
+		text-align: left;
+		float: right;
+	}
+
 .contact {
  text-align: right;
  color: green;
  padding-right: 16px;
 }
 
+.button {
+  margin-left: 800px;
+  float: right;
+}
+
 footer {
-color: white;
-width: 100%;
+ width: 100%;
 display: grid;
 place-items: center;
 grid-row-start: 3;
