@@ -70,7 +70,7 @@ p {
 }
 
 .info {
-  margin: 0px 0px 0px 1000px;
+  margin: 0 auto;
   text-align: center;
   padding-bottom: 24px;
 }

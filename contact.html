@@ -1,33 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css"/>
-    <title>Contact</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css" />
+  <title>Contact</title>
 </head>
+
 <body>
-    <header>
-        <h2 class="logo">Hi, I'm Tucker Austin!🖐</h2>
-        <a class="contact" href="/contact.html">Contact</a>
-    </header>
-    <h1>Contact Me</h1>
-    <div class="form">
-        <form name="contact" method="POST" data-netlify="true">
-            <p>
-              <label>Name: <input type="text" name="name" /></label>   
-            </p>
-            <p>
-              <label>Email: <input type="email" name="email" /></label>
-            </p>
-            <p>
-              <label>Message: <textarea name="message"></textarea></label>
-            </p>
-            <p>
-              <button type="submit">Send</button>
-            </p>
-          </form>
-    </div>
+  <header>
+    <h2 class="logo">Hi, I'm Tucker Austin!🖐</h2>
+    <a class="contact" href="/contact.html">Contact</a>
+  </header>
+  <h1 class="info">Contact Me</h1>
+  <div class="form">
+    <form name="contact" method="POST" data-netlify="true">
+      <p>
+        <label>Name:</label><input type="text" name="name" required />
+      </p>
+      <p>
+        <label>Email:</label><input type="email" name="email" required />
+      </p>
+      <p>
+        <label>Message:</label><textarea name="message" required></textarea>
+      </p>
+  </div>
+  <div class="button">
+    <button type="submit">Send</button>
+    </form>
+  </div>
 </body>
+
 </html>
