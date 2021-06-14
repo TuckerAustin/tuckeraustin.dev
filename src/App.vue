@@ -19,12 +19,18 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
+  background: linear-gradient(
+    45deg,
+    rgb(26, 26, 26) 11%,
+    rgb(0, 156, 0) 74%,
+    rgb(26, 26, 26) 15%
+  );
 }
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: #2c3e50;
+  color: #ffffff;
 }
 
 #nav {
@@ -33,14 +39,14 @@ body {
 
 #nav a {
   font-weight: bold;
-  color: #2c3e50;
+  color: #06940d;
   text-decoration: none;
   padding: 10px;
   border-radius: 4px;
 }
 
-#nav a.router-link-exact-active {
-  color: #06940d;
+#nav a:hover {
+  color: snow;
 }
 
 header {

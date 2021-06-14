@@ -3,6 +3,7 @@
     <h1>Contact Me</h1>
   </div>
   <sl-form
+    @sl-submit="handleClick"
     class="form-overview"
     name="contact"
     method="POST"
